@@ -1,0 +1,414 @@
+*{
+    padding: 0px;
+    overflow: 0px;
+    margin: 0px;
+}
+body{
+    overflow: hidden;
+}
+.background{
+    background-image: url(skye.jpg);
+    width: 1410px;
+}
+
+
+.aero{
+    position: relative;
+    top:  -290px;
+    width: 1px;
+    height: 10%;
+    border-radius: 100%;
+    animation-name: aero;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    /* margin-top: 100 px; */
+
+  
+}
+@keyframes aero{
+    from{
+        right: -1500px;
+    }
+    to{
+        right: 1500px;
+    }
+}
+.air-earo img{
+    width: 200px;
+}
+.air-earo{
+    position: absolute;
+    top:  40px;
+    width: 1px;
+    height: 10%;
+    border-radius: 100%;
+    animation-name: aero;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes air-earo{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.pedestrian img{
+    width: 150px;
+    height: 200%; 
+}
+.pedestrian{
+    position: absolute;
+    top:  210px;
+    width: 1px;
+    height: 5%;
+    border-radius: 100%;
+    animation-name: aero;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes pedestrian{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.man img{
+    width: 150px;
+    height: 150%; 
+}
+.man{
+    position: absolute;
+    top:  180px;
+    width: 1px;
+    height: 10%;
+    border-radius: 100%;
+    animation-name: aero;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes pedestrian{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+
+.ojo{
+    position: absolute;
+    background-color:white;
+    height: 50px;
+    width: 100%;
+    top: 45%;
+}
+/* .oj{
+    position: absolute;
+    background-color: green;
+    height: 10px;
+    width: 100%;
+    top: 46%;
+} */
+.bike img{
+    width: 200px;
+    height: 270%; 
+
+}
+.bike{
+    position: absolute;
+    top:  400px;
+    width: 1px;
+    height: 10%;
+    border-radius: 100%;
+    animation-name: aero;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes pedestrian{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.road img{
+    width: 1370px;
+    height: 150px;
+
+}
+.ojoro{
+    position: absolute;
+    background-color: rgb(21, 22, 21);
+    height: 60px;
+    width: 100%;
+    top: 70%;
+}
+.ojoro img{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    bottom: 50px;
+    left: 950px;
+}
+.trst img{
+    position: absolute;
+    height: 210px;
+    width: 140px;
+    bottom: 150px;
+    left: 1250px
+}
+.trst2 img{
+    position: absolute;
+    height: 210px;
+    width: 140px;
+    bottom: 150px;
+    left: 250px
+}
+
+.trst3 img{
+    position: absolute;
+    height: 150px;
+    width: 140px;
+    bottom: 185px;
+    left: 250px
+}
+
+.trst4 img{
+    position: absolute;
+    height: 140px;
+    bottom: 185px;
+    left: 640px;
+}
+
+.trst5 img{
+    position: absolute;
+    height: 130px;
+    top: 550px;
+    left: 150px;
+    
+}
+.road{
+    position: absolute;
+    top:  307px;
+    width: px;
+     height: 100%; 
+}
+.road2 img{
+    width: 1370px;
+    height: 150px;
+}
+.road2{
+    position: absolute;
+    top: 516px;
+    
+}
+.van{
+    position: absolute;
+    top:  510px;
+    width: 1px;
+    height: 10%;
+    border-radius: 100%;
+    animation-name: van;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes van{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.van img{
+    width: 200px;
+    height: 270%; 
+}
+.black-car{
+    position: absolute;
+    top:  510px;
+    width: 1px;
+    height: 10%;
+    border-radius: 100%;
+    animation-name: black-car;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes black-car{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.black-car img{
+    width: 210px;
+    height: 80%;
+}
+.police img{
+    width: 210px;
+    height: 150%;
+}
+.police{
+    position: absolute;
+    top:  560px;
+    width: 1px;
+    height: 10%;
+    border-radius: 100%;
+    animation-name: police;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+    
+}
+@keyframes police{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.ke{
+    position: absolute;
+    top:  570px;
+    width: 1px;
+    height: 10%;
+    border-radius: 100%;
+    animation-name: ke;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes ke{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.ke img{
+    width: 120px;
+     
+}
+.bl{
+    position: absolute;
+    top:  300px;
+    width: 200px;
+    height: 200%;
+    border-radius: 100%;
+    animation-name: bl;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+@keyframes bl{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.bl img{
+    width: 200px;
+    height: 180px;
+}
+.bl2{
+    position: absolute;
+    top:  230px;
+    width: 200px;
+    height: 200%;
+    border-radius: 100%;
+    animation-name: bl2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes bl2{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.bl2 img{
+    width: 200px;
+    height: 200px;
+
+
+}
+.bl3{
+    position: absolute;
+    top:  230px;
+    width: 200px;
+    height: 200%;
+    border-radius: 100%;
+    animation-name: bl3;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes bl3{
+    from{
+        left: 1300px;
+    }
+    to{
+        left: -500px;
+    }
+}
+.bl3 img{
+    width: 100px;
+}
+.bl4{
+    position: absolute;
+    top:  -90px;
+    left: 970px;
+    width: 200px;
+    height: 200%;
+    
+}
+
+
+
+
+
+
